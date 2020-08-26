@@ -1,0 +1,147 @@
+div.top-row{
+    height: 30px;
+}
+
+section#container-top {    
+    display: none;    
+    background-color: rgba(253,196,29, 1);
+}
+
+ul.top-ul {
+    /* float: right; */
+    margin: 0rem;
+    padding: 0px;
+    font-size:11px;
+}
+
+li.top-contacts {
+    float: left;
+    color: #fff;
+    display: inline-block;
+    padding-right: 70px;
+}
+
+a#top-apply{
+    float: right;
+    color: rgb(255,255,255);
+    padding: 0px 20px;
+}
+
+a#top-apply:visited{
+    color: rgba(255,255,255, 1);
+    }
+
+a#top-apply:hover{
+        color: rgba(253,196,29, 1);
+        text-decoration:underline;
+    }
+a#top-apply:active{
+        color: rgba(253,196,29, 1);
+        }
+
+
+        /***************************navbar***************************************/
+    
+img#logo {
+       width: 150px;
+   }
+nav.bg-light {
+          background-color: rgba(9,119,74, 1) !important;
+    }
+nav a {
+       font-size: 14.5px;
+        padding: 3px 4px;
+ }
+.navbar-light .navbar-nav .nav-link {
+        color: rgba(255, 255, 255, 1);
+    }
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, 
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+       color: rgba(253,196,29, 1);
+   }
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(253,196,29, 1);
+    text-decoration:underline;
+}
+
+
+ul.dropdown-menu {
+    background-color:rgba(9,119,74, 1); 
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius:0px;
+    
+}
+.dropdown-item {
+    color: rgb(255,255,255);
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    color: rgba(253,196,29, 1);
+    text-decoration: underline;
+    background-color: rgba(9,119,74, 1); 
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: rgba(253,196,29, 1);
+    text-decoration: underline;
+    background-color: rgba(9,119,74, 1);
+}
+
+
+
+
+
+
+  /******************************media query 320 px*********************/
+  @media(max-width: 575.98px){
+    
+  
+  
+  }
+  
+  
+  @media (min-width: 576px)and (max-width:767.98px){
+
+  
+     
+     
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px){
+    section#container-top {    
+        display: none;        
+    } 
+    div.top-row{
+        height: 50px;
+    }
+
+  }
+  
+  
+  @media(min-width: 992px) and (max-width:1199.98px){
+      /***************container-top******/
+    section#container-top {    
+        display: flow-root;        
+    } 
+    div.top-row{
+        height: 30px;
+    }  
+
+  }
+  
+  @media (min-width: 1200px){
+    /***************container-top******/
+    section#container-top {    
+        /* display: block; */
+        display: flow-root;  
+        
+    } 
+    div.top-row{
+        height: 30px;
+    }
+      
+  
+  }

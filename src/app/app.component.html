@@ -1,0 +1,123 @@
+<!-- <div class="contact-top">
+  <div class="phones-top">
+    <p></p>
+    <p></p>
+  </div>
+  <div class="apply-top">
+    <a href="#">Apply now </a>
+  </div>  
+</div> -->
+
+
+<section id="container-top">
+  <div class="container">
+    <div class="row top-row">
+        <div class="col-md-5 container-inner align-self-center">
+            <ul class="top-ul">
+              <li class="top-contacts"><b> ministry phone number</b></li>
+              <!-- <li class="top-contacts"> <b>+256-782-049-952</b></li> -->
+            </ul>
+        </div>
+        <div class="col-md-7 align-self-center">
+          <a id ="top-apply" href="#" target="_blank"> Facebook</a>
+          <a id ="top-apply" href="#" target="_blank">  Twitter</a>
+        </div>
+    </div>
+  </div>
+</section>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <!-- <img src="../assets/index/logo.png" class="img-fluid"> -->
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="AboutDropdownMenu" role="button" data-toggle="dropdown" aria-expanded="false" 
+              [routerLink] ="['/payment']" routerLinkActive="active" >About us
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="admissionsDropdownMenu">
+            <li><a class="dropdown-item" [routerLink]="['/payment']" >Apostle Peter
+              </a>
+            </li> 
+            <li><a class="dropdown-item" [routerLink]="['/requirements']" >Ministry Profile
+              </a>
+           </li>
+           <li><a class="dropdown-item" [routerLink]="['/application-guide']" >Statement Of Faith
+              </a>
+           </li>    
+         </ul>
+        </li>
+                                  
+       <li class="nav-item"> 
+          <a class="nav-link" [routerLink]="['']" routerLinkActive="active" >Ministries</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['/']" routerLinkActive="active" >Resources</a>
+        </li>
+        <li class="nav-item dropdown">
+         
+          <a class="nav-link dropdown-toggle" id="admissionsDropdownMenu" role="button" data-toggle="dropdown" aria-expanded="false" 
+              [routerLink] ="['/payment']" routerLinkActive="active" >Audio Lessions
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="admissionsDropdownMenu">
+            <li><a class="dropdown-item" [routerLink]="['/payment']" >Fees and Tuition Payment
+              </a>
+            </li> 
+            <li><a class="dropdown-item" [routerLink]="['/requirements']" >Admission Requirements
+              </a>
+           </li>
+           <li><a class="dropdown-item" [routerLink]="['/application-guide']" >Appication Guidelines
+              </a>
+           </li>
+           <li><a class="dropdown-item" target="_blank" [routerLink]="['/application-guide']">Apply Online
+            </a>
+           </li>
+           <li><a class="dropdown-item" target="_blank" href="#" >Download Application Forms
+               </a>
+           </li>
+           <li><a class="dropdown-item" target="_blank" href="#" >Download Brochures
+           </a>
+        </li>
+
+          </ul>
+        </li>
+        
+        <li class="nav-item ">
+          <a class="nav-link" href="#"  >
+            Contact us 
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#"  >
+            Give
+          </a>
+        </li>  
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+<router-outlet> 
+</router-outlet>
+
+
+<!-- Footer component -->
+
+<app-footer></app-footer>
+
+

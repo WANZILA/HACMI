@@ -13,10 +13,12 @@ html{
 }
 
 body{
+    background-color:rgba(205,204,204,.09);
     display:block;
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color: #333;
+    font-size: 1.2rem;
+    color: rgb(0,0,0);
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
      /* min-width: 300px;      */
@@ -30,7 +32,7 @@ body{
 }
 
 .containerBackgroundColor{
-   background-color:rgb(246,246,246);
+   background-color:rgba(205,204,204,.06);
   
 }
 
@@ -38,6 +40,7 @@ body{
     padding-top: 14px;
     padding-bottom: 9px;
 }
+
 
 
 
@@ -70,23 +73,24 @@ hr {
 /*********************************8links***/
 
 a.apply-options {
-    color: rgb(9,119,74);
+    color:rgba(253,184,19, 1);
     text-decoration: none;
     
 }
 a.apply-options:visted {
-    color:rgba(253,196,29, 0.8);
+    color:rgba(253,184,19, 1);
     text-decoration: underline;
 }
 a.apply-options:focus, a.apply-options:hover,a.apply-options:active  {
-    color: rgba(9,119,74,.6);
-    background-color:rgba(253,196,29, 0.8);
+    color: rgba(255,255,255,1);
+    background-color: rgba(102,45,145, 1);
+    border-color: rgba(102,45,145, 1);
     text-decoration: underline;
 }
 
 /************heading of h1 admission,library, student life ***/
 .titles-color{
-    background-color:rgb(253,196,29);
+    background-color:rgb(253,184,19);
     height: 40px;
 }
 .titles-color h1{
@@ -114,18 +118,19 @@ textarea{
 /* cards */
 .card-header {
     background-color: rgba(0,0,0,.03);
-    border-bottom: 2px solid rgba(253,196,29,1);
+    border-bottom: 2px solid rgba(253,184,19,1);
 }
 
 .card-edit{
     background-color: rgb(9,119,74);
-    border: 1px solid rgb(253,196,29);
+    border: 1px solid rgb(253,184,19);
     width: 280px;
     overflow-x: auto !Important;
 }
-.card-body {
-   background-color: rgb(255,255 ,255);
-} 
+.card-body-edit h5{
+    font-size: 13px;
+}
+ 
 
 /*************button links******/
 .btn-link {

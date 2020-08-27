@@ -4,7 +4,7 @@ div.top-row{
 
 section#container-top {    
     display: none;    
-    background-color: rgba(253,196,29, 1);
+    background-color: rgba(102,45,145, 1);
 }
 
 ul.top-ul {
@@ -23,21 +23,28 @@ li.top-contacts {
 
 a#top-apply{
     float: right;
-    color: rgb(255,255,255);
+    /* color: rgb(255,255,255); */
+    color: rgba(253,184,19, 1);
     padding: 0px 20px;
 }
 
 a#top-apply:visited{
-    color: rgba(255,255,255, 1);
+    color: rgba(212,211,212, 1);
     }
 
 a#top-apply:hover{
-        color: rgba(253,196,29, 1);
+        color: rgba(255,255,255, 1);
         text-decoration:underline;
     }
 a#top-apply:active{
-        color: rgba(253,196,29, 1);
+        color: rgba(255,255,255, 1);
         }
+
+        /*********************************** header */
+header{
+    /* background-color: rgba(102,45,145,.97); */
+    background-color: rgba(255,255,255,.97);
+}
 
 
         /***************************navbar***************************************/
@@ -46,48 +53,50 @@ img#logo {
        width: 150px;
    }
 nav.bg-light {
-          background-color: rgba(9,119,74, 1) !important;
+          background-color: rgba(255,255,255, 1) !important;
     }
 nav a {
-       font-size: 14.5px;
-        padding: 3px 4px;
+       font-size: 18px;
+       padding: 3px 4px;
  }
 .navbar-light .navbar-nav .nav-link {
-        color: rgba(255, 255, 255, 1);
+        /* color: rgba(102,45,145, 1); */
+        color: rgba(253,184,19, 1);
     }
 
 .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, 
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-       color: rgba(253,196,29, 1);
+       color: rgba(102,45,145, 1);
    }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-    color: rgba(253,196,29, 1);
+    color: rgba(253,184,19, 1);
     text-decoration:underline;
 }
 
 
 ul.dropdown-menu {
-    background-color:rgba(9,119,74, 1); 
-    color: rgba(255, 255, 255, 1);
+    background-color:rgba(255,255, 255, 1); 
+    color: rgba(253,184,19, 1);
     border: none;
     border-radius:0px;
     
 }
 .dropdown-item {
-    color: rgb(255,255,255);
+    color: rgb(253,184,19);
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-    color: rgba(253,196,29, 1);
+    color: rgba(255,255,255, 1);
     text-decoration: underline;
-    background-color: rgba(9,119,74, 1); 
+    border-radius: 10px;
+    background-color: rgba(102,45,145, 1); 
 }
 .dropdown-item.active, .dropdown-item:active {
-    color: rgba(253,196,29, 1);
+    color: rgba(253,184,19, 1);
     text-decoration: underline;
-    background-color: rgba(9,119,74, 1);
+    background-color: rgba(102,45,145, 1);
 }
 
 

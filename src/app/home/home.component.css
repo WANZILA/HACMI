@@ -24,9 +24,10 @@ input[type="sumbit"]{
 
 input[type="sumbit"]:hover{
     background-color: rgb(9,119,74);
-    color: rgba(253,196,29, 1);
+    color: rgba(255,255,255, 1);
 }
 
+/**********************************heading******/
 
 
 /*************************custom responsive image ****/
@@ -43,20 +44,20 @@ img{
 
 /**********forms*****************/
 .btn-primary {
-    color: rgb(253,196,29);
-    background-color: rgb(9,119,74);
-    border-color: rgb(9,119,74); 
+    color: rgba(253,184,19, 1);
+    background-color: rgba(102,45,145, 1);
+    border-color: rgba(102,45,145, 1); 
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
     color: rgb(9,119,74);
-    background-color:rgb(253,196,29);
-    border-color: rgb(253,196,29);
+    background-color:rgba(102,45,145, 1);
+    border-color: rgba(102,45,145, 1); 
 }
 .btn-primary:hover {
-    color: rgb(253,196,29);
-    background-color:rgb(9,119,74);
-    border-color: rgb(9,119,74); 
+    color: rgb(255,255,255);
+    background-color: rgba(102,45,145, 1);
+    border-color: rgba(102,45,145, 1); 
 }
 
 legend {    

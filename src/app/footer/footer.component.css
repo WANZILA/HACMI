@@ -1,0 +1,38 @@
+footer{
+    background-color: rgb(102,45,145) !important;
+    color:#fff;
+}
+
+footer h2{
+    padding-top: 20px;
+}
+.textcolor{
+    color:rgb(255,255,255);
+}
+.list-group {
+    border-radius: 0rem; 
+    
+}
+.list-group-item {
+    background-color: rgba(102,45,145, 1) !important;
+    border: none;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+footer a:visited {
+    color: rgba(255,255, 255, 1);
+    text-decoration: none;
+}
+
+footer a:hover, footer a:active {
+    color: rgba(255,255, 255, 1);
+    text-decoration: underline;
+}
+
+footer .list-group-item {    
+    padding: .7rem 1.25rem;
+}
+

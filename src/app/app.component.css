@@ -99,7 +99,10 @@ ul.dropdown-menu {
     background-color: rgba(102,45,145, 1);
 }
 
-
+/**********************************coursel******************/
+.carousel {
+    border: 5px solid rgba(0,0,0,0.2);
+}
 
 
 

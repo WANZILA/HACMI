@@ -90,7 +90,8 @@ a.apply-options:focus, a.apply-options:hover,a.apply-options:active  {
 
 /************heading of h1 admission,library, student life ***/
 .titles-color{
-    background-color:rgb(253,184,19);
+    background-color:rgba(102,45,145, 1);
+    color:rgb(255,255,255);
     height: 40px;
 }
 .titles-color h1{
@@ -262,7 +263,7 @@ table{
         line-height: 19px;  
     } */
     .containerMargins{
-        padding-top: 50px;
+        padding-top: 40px;
         padding-bottom: 20px;
     }
     /************************TEXT***/
